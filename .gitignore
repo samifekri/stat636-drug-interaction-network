@@ -1,0 +1,16 @@
+# secrets
+.env
+
+# Python / Jupyter
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+
+# openFDA downloads stay local
+data/raw/*
+!data/raw/.gitkeep
+
+# OS / Office
+.DS_Store
+Thumbs.db
+~$*

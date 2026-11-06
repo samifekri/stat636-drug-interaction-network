@@ -1,0 +1,13 @@
+# Python 3.12 recommended
+pandas>=2.2
+numpy>=1.26
+scipy>=1.11
+requests>=2.32
+python-dotenv>=1.0
+networkx>=3.3
+scikit-learn>=1.5
+matplotlib>=3.9
+jupyterlab>=4.2
+ipykernel>=6.29
+# Optional, for ASE / MASE / SBM estimators (needs Python 3.12):
+# graspologic>=3.4
