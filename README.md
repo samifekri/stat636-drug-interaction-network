@@ -43,14 +43,18 @@ co-reported but never warned about are candidate missing interactions. Details:
 
 For your own experiments, start the file name with your initials, e.g. `sf_layer2_tests.ipynb`.
 
+`notebooks/openfda_utils.py` holds the shared helpers: cached openFDA and RxNorm requests (`fu.openfda`, `fu.rxnorm_ingredients`), name rules and label mining. Every response is cached in `data/raw/`, so rerunning a notebook makes no new requests; delete `data/raw/openfda/` or `data/raw/rxnav/` to refetch.
+
 ## Data files (the hand-off between notebooks)
 
 All in `data/processed/`. `node_id` runs 0 … n−1 and is the row/column of the adjacency matrices.
 
 | File | One row per | Columns |
 |---|---|---|
-| `nodes.csv` | drug | `node_id`, `rxcui`, `ingredient` (lower case), `n_reports` |
-| `layer1_edges.csv` | label warning *i* → *j* | `from_id`, `to_id`, `via_name` (named directly), `via_class` (via a class such as "CYP3A4 inhibitors") |
+| `nodes.csv` | drug | `node_id`, `rxcui` (RxNorm ingredient), `ingredient` (lower case), `n_reports`, `fda_names` (every openFDA substance name of the drug, `\|`-separated: use all of them in openFDA queries) |
+| `name_mapping.csv` | openFDA substance name | `fda_name`, `name_count`, `status` (`single`, `combination`, `non_drug`, `not_found`), `rxcui`, `ingredient` |
+| `node_labels.csv` | drug | `node_id`, `has_label`, `label_set_id`, `label_effective_time`, `pharm_class_epc`, `pharm_class_moa` |
+| `layer1_edges.csv` | label warning *i* → *j* | `from_id`, `to_id`, `via_name` (named directly), `via_class` (via a class such as "CYP3A4 inhibitors"), `class_terms`, `evidence` (the label sentence) |
 | `layer2_edges.csv` | drug pair, `i_id < j_id` | `i_id`, `j_id`, `n_ij`, `n_i`, `n_j`, `e_ij` (expected), `w_ij` (= n_ij / e_ij), `log_w_lcb`, `passes_filter` (n_ij ≥ 5 and log_w_lcb > 0) |
 
 If you change these columns, update this table in the same commit and tell the others.
