@@ -1,0 +1,301 @@
+node_id,has_label,label_set_id,label_effective_time,pharm_class_epc,pharm_class_moa
+0,1,dc42ab17-cd30-4d1a-e053-2995a90a86ea,20260924,,
+1,1,a002b40c-097d-47a5-957f-7a7b1807af7f,20260511,Tumor Necrosis Factor Blocker [EPC],Tumor Necrosis Factor Receptor Blocking Activity [MoA]
+2,0,,,,
+3,0,,,,
+4,1,dc91a427-8214-484b-af72-52075b2286a1,20261109,Nonsteroidal Anti-inflammatory Drug [EPC],Cyclooxygenase Inhibitors [MoA]
+5,1,55aedced-d945-4bd2-9aa8-0f18b89a0e7f,20261109,Corticosteroid [EPC],Corticosteroid Hormone Receptor Agonists [MoA]
+6,1,96e931f5-51ae-4bdf-a441-bb0dd26d4c0e,20261105,Folate Analog Metabolic Inhibitor [EPC],Folic Acid Metabolism Inhibitors [MoA]
+7,1,0230a3c3-34cf-478b-88c3-4d96e5300018,20261109,,
+8,1,fbd71fd8-3f36-46a1-bc76-53f6820d42a2,20261027,Proton Pump Inhibitor [EPC],Cytochrome P450 2C19 Inhibitors [MoA]|Proton Pump Inhibitors [MoA]
+9,1,ac0dd8fb-ebe1-4d02-bd0d-4f979c6e3608,20261109,,
+10,1,2166bbdf-eb12-4564-b9e4-b63ca21312bc,20261023,Thalidomide Analog [EPC],
+11,1,b6f7426f-157a-43c9-a3d3-9501a65c61c5,20260928,,
+12,1,2f547f7c-0322-465c-9764-43f955d98ab2,20261102,Loop Diuretic [EPC],
+13,1,dd7adad2-e2f5-4b43-90a4-522bce0be5b3,20261109,,
+14,1,4d8cdd8b-3896-4cd0-9570-a6f4e1d340d7,20261104,,
+15,1,4ba4c797-3f97-4d85-971e-7b17bdf89221,20261103,,
+16,1,aa7ac2bf-d9ed-445d-b394-4d3fe39780ca,20261105,,
+17,1,bf59ff89-a9fa-4fe3-b167-a5d0cba9e438,20261105,,
+18,0,,,,
+19,1,a5609df4-4933-4f85-a7b8-bc54a70a2bac,20261104,Corticosteroid [EPC],Corticosteroid Hormone Receptor Agonists [MoA]
+20,1,44fcea33-8cfa-3a5c-e063-6394a90aafb2,20261023,,
+21,1,5328761e-59d3-ca7a-e063-6394a90ae810,20261015,Insulin Analog [EPC],
+22,1,5d62969b-2ad9-6cf0-e063-6394a90ac2f0,20261009,,
+23,1,8849620a-5e8d-4031-884f-9a2817b050f2,20261109,,
+24,1,08ad87e3-e00c-46d1-98f8-df493cf1712e,20261030,,
+25,1,db313f72-a6bb-444f-949f-19b4aa6f61c0,20261106,,
+26,0,,,,
+27,1,c85d6d02-6cf6-4995-a590-cfca302ea0c9,20261103,HMG-CoA Reductase Inhibitor [EPC],Hydroxymethylglutaryl-CoA Reductase Inhibitors [MoA]
+28,1,4e06b20d-cc5d-46eb-991b-5972248de3af,20261106,,
+29,1,5afd7c3d-c66b-479c-bfd0-6c04658b157d,20261027,Angiotensin 2 Receptor Blocker [EPC],Angiotensin 2 Receptor Antagonists [MoA]
+30,1,fdea1f5f-b717-4d49-8d70-0b373c959bf0,20261102,,
+31,1,fb67e8c7-b817-4253-a1a1-5ecdcee694cf,20211124,,
+32,1,687ebdc4-6946-454e-8d46-3207488ccf32,20261105,,
+33,1,37eaca10-d812-48bc-8b8e-b836bfa9968f,20261029,Tumor Necrosis Factor Blocker [EPC],Tumor Necrosis Factor Receptor Blocking Activity [MoA]
+34,1,f941fc61-f7a3-4e4a-ab7c-87c1667fa05b,20261002,CD20-directed Cytolytic Antibody [EPC],CD20-directed Antibody Interactions [MoA]
+35,1,03bec9ad-cd22-44d3-9b82-2796157de1d1,20261105,,
+36,1,e98f6d83-5172-97a1-ee41-5d7d1d8ba2fd,20261021,Factor Xa Inhibitor [EPC],Factor Xa Inhibitors [MoA]
+37,0,,,,
+38,1,2f16ff78-1262-4bb8-9a25-822c13c4746f,20261028,Benzodiazepine [EPC],
+39,1,c182b6a9-1a31-45ee-9cea-a557c99f5db7,20261104,Thiazide Diuretic [EPC],
+40,1,9f44ff35-e052-49cd-a1c2-0bfd87d49309,20260304,Progestin [EPC]|Progestin-containing Intrauterine System [EPC],
+41,0,,,,
+42,1,936b4ea8-82bf-461d-bc73-4b3bf3f3e9a0,20261104,,
+43,0,,,,
+44,1,be420e8b-bcb0-49b5-bb4d-1df8b9959809,20261014,,
+45,0,,,,
+46,1,5f8189a2-a7ec-441b-993c-fed28b3ae24f,20260415,Retinoid [EPC],
+47,1,487cd7e7-434c-4925-99fa-aa80b1cc776b,20260828,GLP-1 Receptor Agonist [EPC]|Glucose-dependent Insulinotropic Polypeptide Receptor Agonist [EPC],G-Protein-linked Receptor Interactions [MoA]|Glucagon-like Peptide-1 (GLP-1) Agonists [MoA]
+48,1,5140798d-8571-41fb-84a4-e182aac3f64c,20261109,Benzodiazepine [EPC],
+49,1,5bad5bfc-12c0-46a2-8355-1028f108ecbf,20261015,,
+50,1,47a8618c-e768-41bf-9116-634b564405d4,20261029,Proton Pump Inhibitor [EPC],Proton Pump Inhibitors [MoA]
+51,1,6ffff72c-8784-477b-8722-5434a19881a0,20261027,,
+52,1,573770f6-b76e-f6ba-e063-6294a90aa54d,20260922,,
+53,1,cfc2eaf8-7c99-4ce1-95cf-ba1dc0226aed,20261104,Corticosteroid [EPC],Corticosteroid Hormone Receptor Agonists [MoA]
+54,1,6573681e-e9be-440f-a818-a533b744648e,20261109,Nonsteroidal Anti-inflammatory Drug [EPC],Cyclooxygenase Inhibitors [MoA]
+55,1,26e44aa5-cfcd-f10b-e063-6394a90a4dcf,20261105,,
+56,1,9a74ea97-1c00-4d96-a06f-81c183943dc6,20261028,Benzodiazepine [EPC],
+57,1,bd9fea26-0236-d437-c7df-4b7636210875,20261015,,
+58,1,682dd8b8-fc6e-47c5-95b7-82d7ad96b750,20261105,Xanthine Oxidase Inhibitor [EPC],Xanthine Oxidase Inhibitors [MoA]
+59,1,ae1105cd-69fc-4c15-937f-c535304341c2,20261026,Corticosteroid [EPC],Corticosteroid Hormone Receptor Agonists [MoA]
+60,1,4fbe64aa-f8f4-45fa-88ae-e844997703ae,20261102,,
+61,1,5ca218af-b3f4-512a-e063-6394a90a3ec6,20260929,,
+62,1,496b38ee-45b6-4bb2-a35e-9023c3b73719,20261031,,
+63,1,f6b1f516-4972-4d82-bced-113e47b41cc5,20260902,Phosphodiesterase 4 Inhibitor [EPC],Phosphodiesterase 4 Inhibitors [MoA]
+64,1,37066684-5b63-4d3e-ae6a-08c4b3edd7aa,20261109,Aldosterone Antagonist [EPC],Aldosterone Antagonists [MoA]
+65,1,d75e3b97-1ead-4e7b-9ae3-3626aede1efd,20261026,,
+66,1,2be14cbb-197a-4da8-82c8-2443594e7f6f,20260918,Insulin Analog [EPC],
+67,1,0836c6ac-ee37-5640-2fed-a3185a0b16eb,20251113,Selective T Cell Costimulation Modulator [EPC],
+68,1,75a76397-bb62-4014-8488-949a711b25f0,20261026,,
+69,1,6566dcbe-3e25-4828-9c10-3d041000bc77,20261102,,
+70,1,75f6db65-e4ed-470a-9e56-12791f22ee9b,20261105,,
+71,1,205da5d0-05d9-440d-bb5a-b30b826900ab,20261105,alpha-Adrenergic Blocker [EPC]|beta-Adrenergic Blocker [EPC],Adrenergic alpha-Antagonists [MoA]|Adrenergic beta1-Antagonists [MoA]|Adrenergic beta2-Antagonists [MoA]
+72,1,76ff87e4-3aa2-439d-8436-d9e6affb33c8,20261105,,
+73,1,792db8dc-177b-4864-8600-12823819082d,20261015,,
+74,1,4c66bae7-407a-4b5a-9442-93424067ac74,20261019,beta-Adrenergic Blocker [EPC],Adrenergic beta-Antagonists [MoA]
+75,1,5f4e1c79-9540-a70a-e063-6294a90af18a,20261102,,
+76,1,70cd448a-2921-4c69-bdf2-5a6ce883bd07,20261028,Anti-epileptic Agent [EPC]|Mood Stabilizer [EPC],Dihydrofolate Reductase Inhibitors [MoA]|Organic Cation Transporter 2 Inhibitors [MoA]
+77,1,0e8484a8-04a6-4be3-8c5c-1883b0490d53,20261030,Nonsteroidal Anti-inflammatory Drug [EPC],Cyclooxygenase Inhibitors [MoA]
+78,1,4cdcccda-7b9a-49d0-ac50-f4605a3c0ebe,20260821,Vascular Endothelial Growth Factor Inhibitor [EPC],Vascular Endothelial Growth Factor Inhibitors [MoA]|Vascular Endothelial Growth Factor-directed Antibody Interactions [MoA]
+79,1,48aa7ef3-9f44-2a08-e054-00144ff88e88,20261106,Platinum-based Drug [EPC],
+80,1,77d5c10a-0cfc-4b89-942c-0fb5c67ae409,20261106,,
+81,1,5fa4920c-ec29-b879-e063-6294a90adcad,20261106,,
+82,1,cbc31ab1-a80f-4b50-a3b1-39910b0fb609,20260414,Prostacycline Vasodilator [EPC],
+83,1,61ab23a7-bc67-4777-854a-bf43c788a69a,20261109,,
+84,1,2592c9a8-fd74-4e0d-a895-b07b014cf355,20260906,Atypical Antipsychotic [EPC],
+85,1,69ec3405-78ee-4cb4-9180-9bea937a8dcd,20261016,Partial Opioid Agonist [EPC],Partial Opioid Agonists [MoA]
+86,1,cc4ebb51-6020-4339-a36a-ec2380b7d28e,20261103,Catecholamine [EPC]|alpha-Adrenergic Agonist [EPC]|beta-Adrenergic Agonist [EPC],Adrenergic alpha-Agonists [MoA]|Adrenergic beta-Agonists [MoA]
+87,1,9c3ad9c1-474e-4331-a017-09cec46702d8,20261105,Serotonin-3 Receptor Antagonist [EPC],Serotonin 3 Receptor Antagonists [MoA]
+88,1,f6c86139-b1f7-4e84-944f-94af883ce4ea,20261109,Angiotensin Converting Enzyme Inhibitor [EPC],Angiotensin-converting Enzyme Inhibitors [MoA]
+89,1,4396bab5-2851-62ef-e063-6294a90af76e,20260921,Endothelin Receptor Antagonist [EPC],Endothelin Receptor Antagonists [MoA]
+90,1,ae52866a-0b9a-4baf-af1b-f9d5e00c0e56,20261015,Benzodiazepine [EPC],
+91,1,5798d282-ce83-49aa-bc33-13203f2b5285,20261109,Histamine-2 Receptor Antagonist [EPC],Histamine H2 Receptor Antagonists [MoA]
+92,1,35538d89-a984-4335-acdf-85a893f51eee,20260501,,
+93,1,1952d4c7-a40e-4924-b669-c41400774cb9,20261105,Calcineurin Inhibitor Immunosuppressant [EPC],Calcineurin Inhibitors [MoA]|Cytochrome P450 3A4 Inhibitors [MoA]|P-Glycoprotein Inhibitors [MoA]
+94,1,85cc7d25-414b-4b6f-a03a-48af908a16a1,20261106,Atypical Antipsychotic [EPC],
+95,1,305f2042-5bc6-4abd-a3bb-e5c0961c04dd,20261029,Corticosteroid [EPC],Corticosteroid Hormone Receptor Agonists [MoA]
+96,1,83e82707-85b6-2fea-e053-2991aa0a99ef,20261104,Herpes Simplex Virus Nucleoside Analog DNA Polymerase Inhibitor [EPC]|Herpes Zoster Virus Nucleoside Analog DNA Polymerase Inhibitor [EPC]|Herpesvirus Nucleoside Analog DNA Polymerase Inhibitor [EPC],DNA Polymerase Inhibitors [MoA]
+97,0,,,,
+98,1,58dcd3f7-e3d8-4929-a186-8f680a51ff11,20261023,Opioid Agonist [EPC],Full Opioid Agonists [MoA]
+99,0,,,,
+100,1,581c288f-8015-40ef-a4c3-683c96db193d,20261020,Interleukin-6 Receptor Antagonist [EPC],Interleukin 6 Receptor Antagonists [MoA]
+101,1,5f848148-74a7-86c3-e063-6394a90af3a7,20261105,HMG-CoA Reductase Inhibitor [EPC],Hydroxymethylglutaryl-CoA Reductase Inhibitors [MoA]
+102,1,d77d40db-7f38-88eb-fd5d-4282f0642028,20260901,Parathyroid Hormone Analog [EPC],
+103,0,,,,
+104,0,,,,
+105,1,c66cacd1-93f7-483a-a2fc-aad53d5342b0,20261104,Antirheumatic Agent [EPC],
+106,1,23b486eb-f48d-47d4-815e-1313d4ebfbfa,20261016,Interleukin-12 Antagonist [EPC]|Interleukin-23 Antagonist [EPC],Interleukin-12 Antagonists [MoA]|Interleukin-23 Antagonists [MoA]
+107,1,b8c3b7f3-7e72-47af-be23-133e7bb3db59,20261006,Thalidomide Analog [EPC],
+108,1,b63421af-ec03-1de7-e053-2a95a90abec6,20261016,,
+109,1,767374af-89d1-4c19-bd8e-480699b45cf7,20261102,Amide Local Anesthetic [EPC]|Antiarrhythmic [EPC],
+110,1,135502ff-002c-4a29-ba93-60855cf44f31,20260810,Microtubule Inhibitor [EPC],
+111,1,6c680b37-d515-4fc2-83e6-411f1017e18c,20261103,Phosphodiesterase 5 Inhibitor [EPC],Phosphodiesterase 5 Inhibitors [MoA]
+112,1,3aaa6e14-a3f7-4fb2-b9f9-d3a9c3ae1f74,20261104,Acetylcholine Release Inhibitor [EPC]|Neuromuscular Blocker [EPC],Acetylcholine Release Inhibitors [MoA]
+113,0,,,,
+114,1,0669ac77-10df-48af-bc42-55e768b69e4f,20261106,,
+115,1,74e2dd24-5c6e-4dde-a2ab-f2d2e61734d8,20261105,,
+116,1,55889588-c5f1-d9bc-e063-6294a90a5791,20261103,,
+117,0,,,,
+118,0,,,,
+119,1,89a142d5-7e61-48bf-9e77-e2cd124c4792,20260706,Kinase Inhibitor [EPC],Cytochrome P450 3A Inhibitors [MoA]|Kinase Inhibitors [MoA]
+120,1,b2da9d77-154b-48f7-8793-3f4a24dfafc6,20261102,Dipeptidyl Peptidase 4 Inhibitor [EPC],Dipeptidyl Peptidase 4 Inhibitors [MoA]
+121,0,,,,
+122,1,e482a50d-db15-4407-85c9-160c88e8a657,20261014,5-alpha Reductase Inhibitor [EPC],5-alpha Reductase Inhibitors [MoA]
+123,1,6c5c47ab-28ee-11e1-bfc2-0800200c9a66,20261106,Estrogen [EPC],Estrogen Receptor Agonists [MoA]
+124,1,58e9b4c6-531f-49c4-a640-6953e70892fe,20261021,,
+125,1,109a22f4-a7cb-96c6-e063-6394a90ad7f6,20261104,Dietary Cholesterol Absorption Inhibitor [EPC],
+126,1,0b59e98c-5b34-4b93-90f6-20526f4d4f88,20260721,Nucleoside Metabolic Inhibitor [EPC],Nucleic Acid Synthesis Inhibitors [MoA]
+127,1,59d88866-e1ba-9d97-e063-6394a90a7b27,20260825,,
+128,1,16a6a582-eb4d-41bc-9d49-fc1d4117b29a,20261109,,
+129,1,b605b541-4bfd-db3e-9710-11c27f6dee6c,20260909,Proteasome Inhibitor [EPC],Proteasome Inhibitors [MoA]
+130,1,231ef477-822c-46fe-9bf3-d55cdf9bd4c2,20261008,gamma-Aminobutyric Acid-ergic Agonist [EPC],GABA A Agonists [MoA]|GABA B Agonists [MoA]
+131,1,463050bd-2b1c-40f5-b3c3-0a04bb433309,20260616,GLP-1 Receptor Agonist [EPC],Glucagon-like Peptide-1 (GLP-1) Agonists [MoA]
+132,1,ceab8e8b-d022-4d0c-a552-cc5782446248,20260921,Purine Antimetabolite [EPC],Nucleic Acid Synthesis Inhibitors [MoA]
+133,1,dbd8709f-1636-45d9-ba94-5a3bc5f22f84,20261006,Anti-IgE [EPC],IgE-directed Antibody Interactions [MoA]
+134,1,6e94621c-1a95-4af9-98d1-52b9e6f1949c,20260429,Integrin Receptor Antagonist [EPC],Integrin Receptor Antagonists [MoA]
+135,1,a545c6fc-7006-52c2-f476-34e9801ac04f,20260911,,
+136,1,b6465b44-a6dd-f99c-d009-6851cf05169c,20260626,HER2/neu Receptor Antagonist [EPC],HER2/Neu/cerbB2 Antagonists [MoA]
+137,1,2966aec7-2ef0-923c-d8ff-fe1a957bf095,20260630,Janus Kinase Inhibitor [EPC],Janus Kinase Inhibitors [MoA]
+138,0,,,,
+139,1,d37f2e3c-01f0-4a81-a46f-1615b82e2499,20261109,,
+140,1,0dfd0279-ff17-4ea9-89be-9803c71bab44,20251021,Kinase Inhibitor [EPC],Protein Kinase Inhibitors [MoA]
+141,1,6a6f674f-cf2e-40c2-8678-27cb476332cb,20261105,,
+142,1,487f8a62-e142-457c-97cc-2e398fde7594,20260528,Progestin [EPC],
+143,1,508496cb-3441-46b3-a4fe-e0d440e6adc6,20260624,Platinum-based Drug [EPC],
+144,1,1daf714b-704c-4bcc-b6e0-6f0eb2bfe66b,20261023,Nucleoside Metabolic Inhibitor [EPC],Nucleic Acid Synthesis Inhibitors [MoA]
+145,1,e7eff2fc-3fac-4ad5-985b-2b8cc28eb84a,20261106,,
+146,1,5bc9f21d-c959-89ee-e063-6294a90a0a62,20261105,Arteriolar Vasodilator [EPC],
+147,1,42bdd912-2393-44c4-b7e0-47672ca28991,20260730,GLP-1 Receptor Agonist [EPC],Glucagon-like Peptide-1 (GLP-1) Agonists [MoA]
+148,1,c4828095-94e0-4f71-901c-93837974c658,20260916,,
+149,1,a6f89dc3-a594-4b5b-8728-272e20c1ecb5,20260824,Platinum-based Drug [EPC],
+150,1,59ed43d9-b4e0-72a2-e063-6394a90a327d,20260826,Sodium-Glucose Cotransporter 2 Inhibitor [EPC],Sodium-Glucose Transporter 2 Inhibitors [MoA]
+151,1,257cee60-b68f-4c2b-b57d-8e4d73d17e09,20261030,Aminosalicylate [EPC],
+152,1,7277bab4-d8c2-4e4b-a0d9-5dfe1885d547,20260825,Estrogen [EPC],Estrogen Receptor Agonists [MoA]
+153,1,acc1e443-ef7b-486f-a638-710a20e81059,20261007,Topoisomerase Inhibitor [EPC],Topoisomerase Inhibitors [MoA]
+154,1,f1c82580-87ae-11e0-bc84-0002a5d5c51b,20260720,Janus Kinase Inhibitor [EPC]|Kinase Inhibitor [EPC],Janus Kinase Inhibitors [MoA]
+155,1,ed10dd67-5987-4191-b2d3-9dcf40340caa,20261027,,
+156,1,29f06562-6b6a-4ca6-b62e-d08a45fb3dd4,20261021,Central Nervous System Stimulant [EPC],
+157,1,98d2ad5b-9ffa-4456-9a01-567636c3a4d2,20261106,Cardiac Glycoside [EPC],
+158,1,354a97e8-35c8-418b-91b2-9e8e066cec65,20261106,Potassium Channel Blocker [EPC],Potassium Channel Antagonists [MoA]
+159,1,5fa07f1e-7778-1b90-e063-6394a90a9df2,20261106,,
+160,1,9221f3e5-17b8-ea74-e053-2a95a90ad1a8,20261027,,
+161,1,f4e41c2c-d32d-40c2-8afb-b6df998ba6b0,20261027,Atypical Antipsychotic [EPC],
+162,1,bc321932-b600-4659-a499-1853991b4ab9,20261102,Tetracycline-class Drug [EPC],
+163,1,5dcf9a5c-312b-420b-82f3-42177d8f9ee4,20260928,,
+164,1,8f90f169-6a72-4c33-a2af-0bc943602bc2,20261106,Azole Antifungal [EPC],Cytochrome P450 2C19 Inhibitors [MoA]|Cytochrome P450 2C9 Inhibitors [MoA]|Cytochrome P450 3A4 Inhibitors [MoA]
+165,1,890ee914-cfed-4c52-b041-0723d0948484,20261103,,
+166,1,a654726e-f12f-4b03-8bfe-727f26761dce,20261005,Endothelin Receptor Antagonist [EPC],Endothelin Receptor Antagonists [MoA]
+167,1,077c0f39-a3a2-4b2b-a184-09131889dcfb,20260720,Aromatic Amino Acid [EPC],
+168,1,d6599395-3944-44f9-97f2-e0424c6b6a1f,20261106,Human Immunodeficiency Virus Nucleoside Analog Reverse Transcriptase Inhibitor [EPC],Nucleoside Reverse Transcriptase Inhibitors [MoA]
+169,1,3538b979-8cac-49ed-b8dc-50f73ce38c72,20261019,Microtubule Inhibitor [EPC],
+170,1,41a133ef-e461-48ad-8221-b735bdd0ec25,20260924,Factor Xa Inhibitor [EPC],Factor Xa Inhibitors [MoA]
+171,1,763388a5-cc89-4c25-8562-521df679b7e8,20251106,,
+172,1,48080efd-1781-4585-83f8-c43957ac63b3,20261023,Mood Stabilizer [EPC],Cytochrome P450 1A2 Inducers [MoA]|Cytochrome P450 2B6 Inducers [MoA]|Cytochrome P450 2C19 Inducers [MoA]|Cytochrome P450 2C9 Inducers [MoA]|Cytochrome P450 3A4 Inducers [MoA]
+173,1,5851f15f-8add-559f-e063-6394a90a7b7d,20261007,,
+174,1,b79d9671-02dd-40e2-97fb-a6c7be85cda1,20261008,Glycopeptide Antibacterial [EPC],
+175,0,,,,
+176,1,2f7d84d4-1085-4243-be88-442eecb85205,20261106,Nitroimidazole Antimicrobial [EPC],
+177,1,9da86c48-5911-4512-8c71-eca4a6418cf6,20260907,,
+178,1,66da64f7-ca50-47d2-95fa-de37005eef85,20260518,Insulin Analog [EPC],
+179,1,35f99f76-f2ef-4a81-91ff-285419664be3,20240206,Nucleoside Analog Antiviral [EPC],
+180,1,5dc0e9df-3b45-4469-93fe-3d2eddbfe2b7,20261029,Sodium-Glucose Cotransporter 2 Inhibitor [EPC],Sodium-Glucose Transporter 2 Inhibitors [MoA]
+181,1,e3a8c0e9-19ed-49b7-8464-11e8806f47fd,20261019,Nucleoside Metabolic Inhibitor [EPC],Nucleic Acid Synthesis Inhibitors [MoA]
+182,1,b118a40d-6b56-cee3-10f6-ded821a97018,20260520,BCL-2 Inhibitor [EPC],P-Glycoprotein Inhibitors [MoA]
+183,1,7e117c7e-02fc-4343-92a1-230061dfc5e0,20261023,Atypical Antipsychotic [EPC],
+184,1,9da42362-3bb5-4b83-b4bb-b59fd4e55f0d,20260514,CD20-directed Cytolytic Antibody [EPC],CD20-directed Antibody Interactions [MoA]
+185,1,fa2d40a5-3504-44ef-8f5c-aa4c06308074,20261103,Aromatase Inhibitor [EPC],Aromatase Inhibitors [MoA]
+186,1,d6af58f2-4129-45fe-a510-03b7403495ac,20261009,,
+187,1,a0a92717-c1cb-40eb-a95a-1c5dfd32cfc0,20260904,,
+188,1,acb7d02d-249b-4645-ac1b-8ff9a56dd244,20250529,Cholinergic Nicotinic Agonist [EPC],
+189,1,24c07398-84ad-48e2-9625-e9073c28fb73,20261109,,
+190,1,a59e2aaf-692c-4696-817b-3fed7a9dc52c,20261104,Sulfonylurea [EPC],
+191,1,814450ae-439e-4a5d-8c60-9b21b6f14be5,20261105,Fluoroquinolone Antibacterial [EPC],
+192,0,,,,
+193,0,,,,
+194,1,831f7694-8153-4a79-a453-48020b26f035,20260717,,
+195,0,,,,
+196,1,5558a5f5-e821-473b-7d8a-5d33d09f0586,20260522,Antidote [EPC]|Antidote for Acetaminophen Overdose [EPC]|Mucolytic [EPC],Reduction Activity [MoA]
+197,1,445d7cbf-bd3e-a54f-e063-6294a90a67a5,20261102,Nonsteroidal Anti-inflammatory Drug [EPC],Cyclooxygenase Inhibitors [MoA]
+198,1,b129fdc9-1d8e-425c-a5a9-8a2ed36dfbdf,20260728,Androgen Receptor Inhibitor [EPC],Androgen Receptor Antagonists [MoA]|Cytochrome P450 2C19 Inducers [MoA]|Cytochrome P450 2C9 Inducers [MoA]|Cytochrome P450 3A4 Inducers [MoA]
+199,1,5366a055-47fd-41eb-81d8-ffb3be1dc38c,20261015,Central alpha-2 Adrenergic Agonist [EPC],Adrenergic alpha2-Agonists [MoA]
+200,1,1e0ac5e2-329c-d0a8-e063-6394a90afba8,20261015,,
+201,1,1e6bea44-57d6-4bac-9328-46e1ee59f83b,20260618,,
+202,1,3f99b26b-79b9-4efb-aa2c-2868e1e126c8,20261106,,Cytochrome P450 2C19 Inhibitors [MoA]|Cytochrome P450 3A4 Inducers [MoA]
+203,1,ef25af7e-6267-409a-8d68-de51eb48812a,20261028,Tumor Necrosis Factor Blocker [EPC],Tumor Necrosis Factor Receptor Blocking Activity [MoA]
+204,0,,,,
+205,0,,,,
+206,1,8195e4e0-b812-11de-81b4-0002a5d5c51b,20261006,,
+207,1,5265648f-3062-48a2-a4e3-fea1207807a8,20261105,Nitrate Vasodilator [EPC],
+208,1,290b0716-2fd5-43a1-8d3c-4857c1b2eefa,20240610,,
+209,1,ebcd67fa-b4d1-4a22-b33d-ee8bf6b9c722,20260708,Complement Inhibitor [EPC],Complement Inhibitors [MoA]
+210,0,,,,
+211,1,9f8fe5ba-943f-4f0a-9618-6083101faa28,20240906,,
+212,1,de95e29f-a030-4777-a601-874500ab8e91,20261109,Atypical Antipsychotic [EPC],
+213,0,,,,
+214,1,80beab2c-396e-4a37-a4dc-40fdb62859cf,20241226,Hepatitis C Virus Nucleotide Analog NS5B Polymerase Inhibitor [EPC],RNA Replicase Inhibitors [MoA]
+215,1,34ad5cf6-4df0-4104-bddd-4c7631133ded,20251218,Prostaglandin Analog [EPC],
+216,1,e6cb5c8f-e97f-4a6a-95a4-939fd2393949,20260527,GLP-1 Receptor Agonist [EPC],Glucagon-like Peptide-1 (GLP-1) Agonists [MoA]
+217,1,51d85ea8-8317-4a76-a108-20383f118ad4,20261105,,
+218,1,0450d8a2-a88e-4849-9788-ed4f5246f223,20261030,GLP-1 Receptor Agonist [EPC],Glucagon-like Peptide-1 (GLP-1) Agonists [MoA]
+219,0,,,,
+220,0,,,,
+221,1,48d0f55c-f847-4d26-b2ed-94b5a2770228,20261001,Central Nervous System Stimulant [EPC],
+222,1,8444da17-6c31-492b-8842-93740f083d9d,20260602,,
+223,1,bc07bbf5-b1c6-4854-b6af-e06520c20728,20261109,Angiotensin 2 Receptor Blocker [EPC],Angiotensin 2 Receptor Antagonists [MoA]
+224,1,9f1c8971-c6dc-4708-848b-5cee50b6c32a,20261104,Retinoid [EPC],
+225,0,,,,
+226,0,,,,
+227,1,43ef3c29-0e25-4fdd-aea1-06a20af9bbab,20261009,Kinase Inhibitor [EPC]|mTOR Inhibitor Immunosuppressant [EPC],Cytochrome P450 2D6 Inhibitors [MoA]|Cytochrome P450 3A4 Inhibitors [MoA]|Protein Kinase Inhibitors [MoA]|mTOR Inhibitors [MoA]
+228,0,,,,
+229,0,,,,
+230,1,24163442-dd03-4066-a6ed-eb7e292b700b,20260821,,
+231,1,6bad4e06-c0a1-4123-83c2-67d3b081e8a9,20261106,,
+232,0,,,,
+233,1,3850cce2-6137-42e5-a792-d318c4a4b3b5,20251019,,
+234,1,580e6cd4-3f05-4996-9dc3-c50d757ae210,20261106,,
+235,1,d9f682f0-d50a-4fe6-ab1b-e5a7ec27b3a5,20261027,Serotonin-1b and Serotonin-1d Receptor Agonist [EPC],Serotonin 1b Receptor Agonists [MoA]|Serotonin 1d Receptor Agonists [MoA]
+236,1,540edd43-165d-4257-b989-3bccc8f54afb,20260909,,
+237,1,b60e8dd0-1d48-4dc9-87fd-e14675255e8c,20260701,Insulin [EPC],
+238,0,,,,
+239,0,,,,
+240,1,04577c39-a9c0-4c66-a775-4c79e2c3dea5,20260915,,
+241,1,bb9b9381-dc5a-4d90-a54e-5f08a03d3796,20261023,Pyrimidine Synthesis Inhibitor [EPC],Dihydroorotate Dehydrogenase Inhibitors [MoA]
+242,1,37e59db2-6d89-4593-ad00-35d77ab9d013,20261110,,
+243,0,,,,
+244,1,34c02bcc-d6ff-99d4-8e6a-4a91908adca8,20260914,Hepatitis B Virus Nucleoside Analog Reverse Transcriptase Inhibitor [EPC]|Human Immunodeficiency Virus Nucleoside Analog Reverse Transcriptase Inhibitor [EPC],Nucleoside Reverse Transcriptase Inhibitors [MoA]
+245,1,65c81817-34d3-4c57-a4bf-fb10be98386d,20261103,,
+246,0,,,,
+247,1,7f39499a-98cf-4d13-9b07-ccb5c22e43c8,20261104,,
+248,1,75003769-7800-4bc7-b709-35b4caec2c2f,20261104,Dihydropyridine Calcium Channel Blocker [EPC],Calcium Channel Antagonists [MoA]
+249,0,,,,
+250,1,55c550b4-eb8b-4e69-9c09-fa5125a52e65,20261104,Proton Pump Inhibitor [EPC],Proton Pump Inhibitors [MoA]
+251,1,413c645e-074d-4276-b39a-d83521077602,20261026,,
+252,1,11f757f1-cf48-47a8-925e-918359cbd2d4,20260917,Cytochrome P450 3A Inhibitor [EPC]|Protease Inhibitor [EPC],Breast Cancer Resistance Protein Inhibitors [MoA]|Cytochrome P450 1A2 Inducers [MoA]|Cytochrome P450 2B6 Inducers [MoA]|Cytochrome P450 2C19 Inducers [MoA]|Cytochrome P450 2C9 Inducers [MoA]|Cytochrome P450 2D6 Inhibitors [MoA]|Cytochrome P450 3A Inducers [MoA]|Cytochrome P450 3A Inhibitors [MoA]|Cytochrome P450 3A4 Inhibitors [MoA]|HIV Protease Inhibitors [MoA]|P-Glycoprotein Inhibitors [MoA]|UDP Glucuronosyltransferases Inducers [MoA]
+253,1,bdc9e133-2657-4a5c-b955-49d92643302e,20261028,Pyridone [EPC],
+254,1,5de65a7f-a219-4b22-9155-61fedc84433b,20260910,,
+255,1,889dd22c-46f0-48d0-b18e-a3783c5fa653,20261106,Anti-epileptic Agent [EPC],Cytochrome P450 1A2 Inducers [MoA]|Cytochrome P450 2B6 Inducers [MoA]|Cytochrome P450 2C19 Inducers [MoA]|Cytochrome P450 2C8 Inducers [MoA]|Cytochrome P450 2C9 Inducers [MoA]|Cytochrome P450 2D6 Inducers [MoA]|Cytochrome P450 3A Inducers [MoA]
+256,1,ac641027-929e-694d-80cd-bf770dc51aa6,20260911,,
+257,1,291f6ee2-f5d2-ae6c-e063-6294a90a5951,20260920,,
+258,1,5f102149-ad27-4956-e063-6294a90ac6ad,20261030,beta3-Adrenergic Agonist [EPC],Adrenergic beta3-Agonists [MoA]|Cytochrome P450 2D6 Inhibitors [MoA]|Cytochrome P450 3A Inhibitors [MoA]|P-Glycoprotein Inhibitors [MoA]
+259,1,101cdc41-2131-4425-b550-6a0a60b5f4a4,20261106,Sulfonylurea [EPC],
+260,1,43a4d7f8-48ae-4a63-9108-2fa8e3ea9d9c,20260220,,
+261,1,fa8f1f52-3f05-4ae8-bfec-7f0a029e6825,20260921,Folate Analog Metabolic Inhibitor [EPC],Folic Acid Metabolism Inhibitors [MoA]
+262,1,5cd2d96f-83e5-4326-ae87-d0ede4ba493a,20230115,,
+263,1,ccb3e0f9-57db-40bc-84d2-b66a827a5b96,20261103,,
+264,1,3fb6e908-893c-5a57-e063-6294a90a1bfc,20261019,Osmotic Laxative [EPC],Acidifying Activity [MoA]|Osmotic Activity [MoA]
+265,1,63e0b7ca-6b2d-42a9-b9d4-4523b8a20425,20261013,,
+266,1,3a319017-4e25-402e-8ba0-63b9f1eb707e,20261104,,
+267,1,024bca92-cac5-4832-a1ff-c1b3d5994ba0,20261104,,
+268,1,147a51d7-2f8d-43e8-b0ed-a79a2cdfc0a9,20261105,Benzodiazepine [EPC],
+269,1,603c07bb-61bf-410f-8abf-01ef09d61c14,20260910,,
+270,0,,,,
+271,1,b023a9f2-1a99-4b40-a953-edac7e3a79bf,20261029,Aromatase Inhibitor [EPC],Aromatase Inhibitors [MoA]
+272,1,76ae0147-53ad-4192-a400-c5d1760123d0,20261022,General Anesthetic [EPC],
+273,0,,,,
+274,1,b59ee3cc-9604-4abc-81be-897e2f42aa67,20261015,,
+275,1,64561dfd-3704-4820-aef6-d0d26cef7255,20260902,,
+276,1,bf2f7b41-f14d-4fcd-8db3-f507ca6ff78b,20261016,,
+277,1,68024459-987a-9cf4-f539-4959093bc9f0,20261021,Peroxisome Proliferator Receptor alpha Agonist [EPC],Peroxisome Proliferator-activated Receptor alpha Agonists [MoA]
+278,1,e928c7e6-c889-4854-a9c1-e23fb860ba8e,20260929,,
+279,0,,,,
+280,0,,,,
+281,1,0be243c6-de02-45dd-8210-cab1bbc8dfa7,20261109,Macrolide Antimicrobial [EPC],Cytochrome P450 3A Inhibitors [MoA]|Cytochrome P450 3A4 Inhibitors [MoA]|P-Glycoprotein Inhibitors [MoA]
+282,0,,,,
+283,0,,,,
+284,0,,,,
+285,1,5418f2b2-3e23-4e7a-b4df-36a1515c9a12,20261029,beta-Adrenergic Blocker [EPC],Adrenergic beta-Antagonists [MoA]
+286,1,5eeca7b4-92ac-bb1f-e063-6394a90a036a,20261109,Loop Diuretic [EPC],
+287,1,6a8a3f53-2062-48ff-9dbe-b939df133ca3,20260401,CD20-directed Cytolytic Antibody [EPC],CD20-directed Antibody Interactions [MoA]
+288,1,5b769a76-5ca5-b2e9-e063-6394a90a1b1b,20260914,,
+289,1,e20d8ca3-8837-4003-8b01-1ebec342062a,20261016,Estrogen Receptor Antagonist [EPC],Estrogen Receptor Antagonists [MoA]|Selective Estrogen Receptor Modulators [MoA]
+290,1,31dd2160-7dbd-51fa-e054-00144ff88e88,20261102,,
+291,1,dddcd321-4d2e-4643-bf3c-7b752b33ba39,20260330,,
+292,1,634efd82-1a35-40cf-9893-50c27d661083,20261019,Aminoglycoside Antibacterial [EPC],
+293,1,6acb3f07-9e32-4ad0-8336-e2f33d55b127,20261026,,
+294,1,b1ad2abd-a9d6-44e3-957b-36a73260f4f5,20260922,,
+295,1,5a6d3ff1-e853-a3d8-e063-6394a90a18f5,20261106,,
+296,1,e9ba4108-7095-4771-840e-bf1e08b5f4da,20261106,,
+297,1,49b3ca93-43cc-439c-8f5d-e3ea2e87ad2f,20260623,Macrolide Antimicrobial [EPC]|Macrolide [EPC],
+298,1,e80e44f8-1987-4b78-a63d-a4e4d5122ddb,20260311,Protease Inhibitor [EPC],Cytochrome P450 2D6 Inhibitors [MoA]|Cytochrome P450 3A Inhibitors [MoA]|HIV Protease Inhibitors [MoA]
+299,1,87505f8f-2056-4e55-adf5-5b7309081d7c,20260901,Nitrofuran Antibacterial [EPC],
