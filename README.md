@@ -37,13 +37,15 @@ co-reported but never warned about are candidate missing interactions. Details:
 |---|---|---|---|
 | `01_node_set.ipynb` | Avneesh | openFDA reports | `data/processed/nodes.csv` |
 | `02_layer1_labels.ipynb` | Avneesh | `nodes.csv`, openFDA labels | `data/processed/layer1_edges.csv` |
-| `03_layer2_coreports.ipynb` | Sami | `nodes.csv`, openFDA reports | `data/processed/layer2_edges.csv` |
+| `03_layer2_coreports.ipynb` | Sami | `nodes.csv`, openFDA reports | `data/processed/layer2_edges.csv`, `outputs/03_*.png` |
 | `04_exploration.ipynb` | Avneesh | `data/processed/` | `outputs/`: layer summary, degrees, reciprocity |
 | `05_modeling.ipynb` | Avneesh | `data/processed/` | `outputs/`: block models, candidates, link prediction |
 
 For your own experiments, start the file name with your initials, e.g. `sf_layer2_tests.ipynb`.
 
-`notebooks/openfda_utils.py` holds the shared helpers: cached openFDA and RxNorm requests (`fu.openfda`, `fu.rxnorm_ingredients`), name rules and label mining. Every response is cached in `data/raw/`, so rerunning a notebook makes no new requests; delete `data/raw/openfda/` or `data/raw/rxnav/` to refetch.
+`notebooks/openfda_utils.py` holds the shared helpers: cached openFDA and RxNorm requests (`fu.openfda`, `fu.rxnorm_ingredients`), name rules and label mining. Every response is cached in `data/raw/`, so rerunning a notebook makes no new requests; delete `data/raw/openfda/` or `data/raw/rxnav/` to refetch. `notebooks/figure_style.py` holds the colours and matplotlib settings for the figures.
+
+Notebook 03 needs the openFDA key in `.env`. Its first run makes several thousand requests (it prints how many before it starts; allow 30–60 minutes), later runs take seconds. It writes `layer2_edges.csv` only after its checks pass: pair counts obtained in two ways must agree, all answers must come from one openFDA data release, and no pair may have more joint reports than one of its drugs has reports. If it stops, the message says what to do.
 
 ## Data files (the hand-off between notebooks)
 
@@ -55,7 +57,7 @@ All in `data/processed/`. `node_id` runs 0 … n−1 and is the row/column of th
 | `name_mapping.csv` | openFDA substance name | `fda_name`, `name_count`, `status` (`single`, `combination`, `non_drug`, `not_found`), `rxcui`, `ingredient` |
 | `node_labels.csv` | drug | `node_id`, `has_label`, `label_set_id`, `label_effective_time`, `pharm_class_epc`, `pharm_class_moa` |
 | `layer1_edges.csv` | label warning *i* → *j* | `from_id`, `to_id`, `via_name` (named directly), `via_class` (via a class such as "CYP3A4 inhibitors"), `class_terms`, `evidence` (the label sentence) |
-| `layer2_edges.csv` | drug pair, `i_id < j_id` | `i_id`, `j_id`, `n_ij`, `n_i`, `n_j`, `e_ij` (expected), `w_ij` (= n_ij / e_ij), `log_w_lcb`, `passes_filter` (n_ij ≥ 5 and log_w_lcb > 0) |
+| `layer2_edges.csv` | drug pair, `i_id < j_id` (every pair; the Layer 2 edges are the rows with `passes_filter` = 1) | `i_id`, `j_id`, `n_ij` (reports listing both), `n_i`, `n_j`, `e_ij` (expected = n_i · n_j / N), `w_ij` (= n_ij / e_ij), `log_w_lcb`, `log_w_ucb` (95% interval for log w), `passes_filter` (n_ij ≥ 5 and log_w_lcb > 0), `overlap` (= n_ij / min(n_i, n_j); near 1 means the two are ingredients of one product), `count_source` (how n_ij was obtained: from the co-report lists or from an exact query) |
 
 If you change these columns, update this table in the same commit and tell the others.
 

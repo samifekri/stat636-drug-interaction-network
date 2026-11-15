@@ -58,17 +58,21 @@ def cached_get(raw_dir, source, url, params, tag, pause=0.25):
     return data
 
 
-def openfda(raw_dir, api_key, endpoint, params, tag):
-    """openFDA query. Search clauses use '+' between terms, so the query string is built by hand."""
+def openfda(raw_dir, api_key, endpoint, params, tag, slim=False):
+    """openFDA query. Search clauses use '+' between terms, so the query string is built by hand.
+
+    slim=True caches only the "meta" part of the answer (use it when just the total is needed:
+    notebook 03 asks for thousands of totals and each full answer carries a whole report).
+    """
     q = dict(params)
     if api_key:
         q["api_key"] = api_key
     safe = "+:()_.*"
     query = "&".join(k + "=" + requests.utils.quote(str(v), safe=safe) for k, v in q.items())
-    return _cached_openfda(raw_dir, endpoint, query, params, tag)
+    return _cached_openfda(raw_dir, endpoint, query, params, tag, slim)
 
 
-def _cached_openfda(raw_dir, endpoint, query, params, tag):
+def _cached_openfda(raw_dir, endpoint, query, params, tag, slim=False):
     public = {k: v for k, v in params.items() if k != "api_key"}
     key = hashlib.sha1(json.dumps([endpoint, public], sort_keys=True).encode()).hexdigest()[:12]
     safe = re.sub(r"[^A-Za-z0-9_-]+", "_", tag)[:60]
@@ -77,6 +81,8 @@ def _cached_openfda(raw_dir, endpoint, query, params, tag):
         STATS["cached"] += 1
         return json.loads(path.read_text(encoding="utf-8"))
     data = _http_get(f"{OPENFDA}/{endpoint}.json?{query}", None)
+    if slim:
+        data = {"meta": data.get("meta", {})}
     STATS["requests"] += 1
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(json.dumps(data), encoding="utf-8")
